@@ -1,0 +1,4 @@
+/Tempsys-backups
+.DS_Store
+*.kicad_prl
+fp-info-cache
