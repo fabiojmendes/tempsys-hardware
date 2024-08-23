@@ -3699,6 +3699,18 @@
 				(xyz 0 0 180)
 			)
 		)
+		(model "${KIPRJMOD}/Library/3dmodels/438600003.stp"
+			(hide yes)
+			(offset
+				(xyz 1.5 -0.25 7)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 180)
+			)
+		)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 		(layer "F.Cu")
