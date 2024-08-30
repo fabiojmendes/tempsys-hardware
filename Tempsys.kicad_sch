@@ -1088,6 +1088,198 @@
 				)
 			)
 		)
+		(symbol "Jumper:SolderJumper_2_Bridged"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Bridged"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Bridged*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_2_Bridged_0_1"
+				(rectangle
+					(start -0.508 0.508)
+					(end 0.508 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start -0.254 1.016)
+					(mid -1.2656 0)
+					(end -0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 1.016)
+					(mid -1.2656 0)
+					(end -0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 -1.016)
+					(mid 1.2656 0)
+					(end 0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 -1.016)
+					(mid 1.2656 0)
+					(end 0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Bridged_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers hide)
 			(pin_names
@@ -2672,6 +2864,12 @@
 		)
 	)
 	(junction
+		(at 229.87 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a49cee7-44ee-42cf-a6cb-99f24867706b")
+	)
+	(junction
 		(at 54.61 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2696,7 +2894,7 @@
 		(uuid "a53b9fcd-0c97-4c8f-a544-69cb73e899b7")
 	)
 	(junction
-		(at 228.6 76.2)
+		(at 229.87 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ae31e38b-066c-4f9a-bec0-4638089f8b6f")
@@ -2708,13 +2906,13 @@
 		(uuid "d73a75f4-b5ea-461b-b4b2-8c983d103b32")
 	)
 	(junction
-		(at 228.6 85.09)
+		(at 229.87 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d7f182d1-a5b7-4d99-893a-9a9c68942dfb")
 	)
 	(junction
-		(at 223.52 85.09)
+		(at 224.79 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e1e7fbfe-f51a-4701-a64c-43277449c2f8")
@@ -2841,7 +3039,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 109.22) (xy 203.2 106.68)
+			(xy 195.58 120.65) (xy 195.58 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2858,6 +3056,16 @@
 			(type default)
 		)
 		(uuid "05b5dec4-9b38-4648-8f1b-c12f8700645e")
+	)
+	(wire
+		(pts
+			(xy 234.95 57.15) (xy 234.95 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c78bd1e-7e2c-4caf-a4c6-307b475d4773")
 	)
 	(wire
 		(pts
@@ -2881,7 +3089,17 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 115.57) (xy 236.22 115.57)
+			(xy 224.79 57.15) (xy 229.87 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13990759-ad5d-41c0-a6a9-15bef8101a60")
+	)
+	(wire
+		(pts
+			(xy 214.63 125.73) (xy 218.44 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2928,6 +3146,16 @@
 			(type default)
 		)
 		(uuid "1ea0bae5-1556-4f4c-a64b-e6952fdd8272")
+	)
+	(wire
+		(pts
+			(xy 229.87 57.15) (xy 229.87 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f748362-9382-4898-bd81-203ba85f52d3")
 	)
 	(wire
 		(pts
@@ -2991,7 +3219,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 85.09) (xy 251.46 85.09)
+			(xy 229.87 153.67) (xy 252.73 153.67)
 		)
 		(stroke
 			(width 0)
@@ -3031,6 +3259,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 57.15) (xy 224.79 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43445c6f-0636-4333-badd-88e229fa77a5")
+	)
+	(wire
+		(pts
 			(xy 153.67 107.95) (xy 157.48 107.95)
 		)
 		(stroke
@@ -3051,7 +3289,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 114.3) (xy 198.12 114.3)
+			(xy 194.31 125.73) (xy 190.5 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3101,7 +3339,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 110.49) (xy 236.22 110.49)
+			(xy 214.63 120.65) (xy 218.44 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3111,7 +3349,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 113.03) (xy 236.22 113.03)
+			(xy 214.63 123.19) (xy 218.44 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3191,6 +3429,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 66.04) (xy 224.79 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "804cc609-667d-4c2a-b80a-26c9df2e33ff")
+	)
+	(wire
+		(pts
 			(xy 153.67 85.09) (xy 157.48 85.09)
 		)
 		(stroke
@@ -3211,7 +3459,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 85.09) (xy 223.52 88.9)
+			(xy 224.79 153.67) (xy 224.79 157.48)
 		)
 		(stroke
 			(width 0)
@@ -3241,7 +3489,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 76.2) (xy 223.52 85.09)
+			(xy 224.79 144.78) (xy 224.79 153.67)
 		)
 		(stroke
 			(width 0)
@@ -3281,13 +3529,23 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 111.76) (xy 198.12 111.76)
+			(xy 194.31 123.19) (xy 190.5 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "98772758-fc01-4ea1-9375-9ea1ac6c3c21")
+	)
+	(wire
+		(pts
+			(xy 234.95 73.66) (xy 234.95 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "998152ba-1160-426d-a7f9-2900c8cf4a23")
 	)
 	(wire
 		(pts
@@ -3298,6 +3556,16 @@
 			(type default)
 		)
 		(uuid "a000b65c-cb32-4ac4-a90a-4e7d9cf44e11")
+	)
+	(wire
+		(pts
+			(xy 234.95 57.15) (xy 229.87 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a41b0392-3ce3-4804-8d04-fb64878ff34b")
 	)
 	(wire
 		(pts
@@ -3361,7 +3629,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 109.22) (xy 198.12 109.22)
+			(xy 195.58 120.65) (xy 190.5 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3401,7 +3669,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 85.09) (xy 228.6 85.09)
+			(xy 224.79 153.67) (xy 229.87 153.67)
 		)
 		(stroke
 			(width 0)
@@ -3461,7 +3729,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 76.2) (xy 223.52 76.2)
+			(xy 229.87 144.78) (xy 224.79 144.78)
 		)
 		(stroke
 			(width 0)
@@ -3501,7 +3769,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 116.84) (xy 198.12 116.84)
+			(xy 194.31 128.27) (xy 190.5 128.27)
 		)
 		(stroke
 			(width 0)
@@ -3531,13 +3799,23 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 76.2) (xy 251.46 76.2)
+			(xy 229.87 144.78) (xy 252.73 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e712897c-cf7b-46db-a402-2c9c216701b9")
+	)
+	(wire
+		(pts
+			(xy 224.79 74.93) (xy 224.79 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e89e4251-1997-4265-bfd5-5ef721da1716")
 	)
 	(wire
 		(pts
@@ -3561,7 +3839,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 118.11) (xy 236.22 118.11)
+			(xy 214.63 128.27) (xy 218.44 128.27)
 		)
 		(stroke
 			(width 0)
@@ -3591,7 +3869,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 119.38) (xy 201.93 116.84)
+			(xy 194.31 130.81) (xy 194.31 128.27)
 		)
 		(stroke
 			(width 0)
@@ -3652,7 +3930,7 @@
 		(uuid "0939dc4a-b228-4969-86a1-caa47b1f1f1c")
 	)
 	(label "p0.08"
-		(at 236.22 115.57 0)
+		(at 218.44 125.73 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3674,7 +3952,7 @@
 		(uuid "1bc3ec4d-4734-4d42-9bce-0cf16e90a6d1")
 	)
 	(label "p0.06"
-		(at 236.22 110.49 0)
+		(at 218.44 120.65 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3696,7 +3974,7 @@
 		(uuid "39f1c237-3814-4225-9cbb-54a5ec70db76")
 	)
 	(label "p0.05"
-		(at 236.22 113.03 0)
+		(at 218.44 123.19 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3751,7 +4029,7 @@
 		(uuid "5a2ad217-6632-44d7-8b3b-c9cfb0de9500")
 	)
 	(label "p1.09"
-		(at 236.22 118.11 0)
+		(at 218.44 128.27 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3762,7 +4040,7 @@
 		(uuid "73621743-1777-4d33-90ae-fae316091b92")
 	)
 	(label "swd_pin"
-		(at 201.93 114.3 0)
+		(at 194.31 125.73 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3794,6 +4072,17 @@
 		)
 		(uuid "b4971e8f-3053-4eb9-af35-30d0ca794386")
 	)
+	(label "scl_pin"
+		(at 224.79 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b75e64f4-fe1e-498a-8258-19eedeba9457")
+	)
 	(label "sda_pin"
 		(at 157.48 85.09 0)
 		(fields_autoplaced yes)
@@ -3817,7 +4106,7 @@
 		(uuid "d4d93943-e63c-4401-a8a7-a15385806c5a")
 	)
 	(label "swc_pin"
-		(at 201.93 111.76 0)
+		(at 194.31 123.19 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3827,9 +4116,20 @@
 		)
 		(uuid "dce513cc-11a5-4ef4-a29f-939617cb230f")
 	)
+	(label "sda_pin"
+		(at 234.95 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f1aefe54-1456-401e-8c12-cac6b7aa42fa")
+	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 228.6 82.55 0)
+		(at 229.87 151.13 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -3838,7 +4138,7 @@
 		(fields_autoplaced yes)
 		(uuid "0211d50f-2348-4476-b2bf-5a40bc848024")
 		(property "Reference" "H3"
-			(at 231.14 80.0099 0)
+			(at 232.41 148.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3847,7 +4147,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 231.14 82.5499 0)
+			(at 232.41 151.1299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3856,7 +4156,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad"
-			(at 228.6 82.55 0)
+			(at 229.87 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3865,7 +4165,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 228.6 82.55 0)
+			(at 229.87 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3874,7 +4174,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 228.6 82.55 0)
+			(at 229.87 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4256,7 +4556,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_RJ:RJ14_Connfly_DS1133-S4_Horizontal"
+		(property "Footprint" "Tempsys:438600003"
 			(at 193.675 63.5 90)
 			(effects
 				(font
@@ -4515,6 +4815,72 @@
 			(project ""
 				(path "/5c038b10-b200-4aec-a38f-542bb66cfd01"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 229.87 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "292c21ab-3493-4bda-8a98-509dcaad782f")
+		(property "Reference" "#PWR016"
+			(at 229.87 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 229.87 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 229.87 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01074f23-e12e-44ee-97f7-460aad708015")
+		)
+		(instances
+			(project ""
+				(path "/5c038b10-b200-4aec-a38f-542bb66cfd01"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -4812,7 +5178,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
-		(at 227.33 113.03 0)
+		(at 209.55 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4821,7 +5187,7 @@
 		(fields_autoplaced yes)
 		(uuid "43e5cc63-11c0-4015-b46a-a71e8cb84c47")
 		(property "Reference" "J3"
-			(at 227.965 105.41 0)
+			(at 210.185 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4829,7 +5195,7 @@
 			)
 		)
 		(property "Value" "gpio"
-			(at 227.965 107.95 0)
+			(at 210.185 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4837,7 +5203,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 227.33 113.03 0)
+			(at 209.55 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4846,7 +5212,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 227.33 113.03 0)
+			(at 209.55 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4855,7 +5221,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 227.33 113.03 0)
+			(at 209.55 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4951,17 +5317,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 251.46 82.55 0)
+		(lib_id "Device:R")
+		(at 224.79 62.23 0)
 		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
+		(exclude_from_sim no)
+		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5502a0f4-e977-4024-89e7-c9234986cdb1")
-		(property "Reference" "H4"
-			(at 254 80.0099 0)
+		(uuid "4f686591-7097-4feb-9ee2-7d9329f2b074")
+		(property "Reference" "R2"
+			(at 227.33 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4969,8 +5335,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_Pad"
-			(at 254 82.5499 0)
+		(property "Value" "10k"
+			(at 227.33 63.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4978,8 +5344,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad"
-			(at 251.46 82.55 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 223.012 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4988,7 +5354,86 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 251.46 82.55 0)
+			(at 224.79 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 224.79 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 224.79 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b9e67e63-2b6c-4570-8031-5328bdca49aa")
+		)
+		(pin "1"
+			(uuid "abdbc308-0626-43c9-bca6-3cbff93a0400")
+		)
+		(instances
+			(project "Tempsys"
+				(path "/5c038b10-b200-4aec-a38f-542bb66cfd01"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 252.73 151.13 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "5502a0f4-e977-4024-89e7-c9234986cdb1")
+		(property "Reference" "H4"
+			(at 255.27 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 255.27 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad"
+			(at 252.73 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 252.73 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4997,7 +5442,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 251.46 82.55 0)
+			(at 252.73 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5077,6 +5522,76 @@
 			(project ""
 				(path "/5c038b10-b200-4aec-a38f-542bb66cfd01"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 224.79 71.12 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5de8b823-f7f4-43ec-a74c-ba765f5fd7c5")
+		(property "Reference" "JP1"
+			(at 227.33 69.8499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SCL"
+			(at 227.33 72.3899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 224.79 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 224.79 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 224.79 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1bb81e0a-9bb5-486c-b5dd-0519fde9c391")
+		)
+		(pin "2"
+			(uuid "85417360-8ec0-4901-a8a2-feea7a167f2d")
+		)
+		(instances
+			(project ""
+				(path "/5c038b10-b200-4aec-a38f-542bb66cfd01"
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -5228,8 +5743,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 234.95 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71bc3678-a666-4404-8c30-0ef342ccc1f2")
+		(property "Reference" "R3"
+			(at 237.49 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 237.49 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 233.172 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 234.95 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 234.95 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 234.95 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "acd34b1b-1ce1-43e5-abab-89f136b729dd")
+		)
+		(pin "1"
+			(uuid "0ac645c4-68cf-4f92-a159-0396674bdab8")
+		)
+		(instances
+			(project "Tempsys"
+				(path "/5c038b10-b200-4aec-a38f-542bb66cfd01"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VDD")
-		(at 203.2 106.68 0)
+		(at 195.58 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5237,7 +5831,7 @@
 		(dnp no)
 		(uuid "738dc0ee-354c-4a9e-a1fa-71332c92e164")
 		(property "Reference" "#PWR010"
-			(at 203.2 110.49 0)
+			(at 195.58 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5246,7 +5840,7 @@
 			)
 		)
 		(property "Value" "VDD"
-			(at 203.2 101.6 0)
+			(at 195.58 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5254,7 +5848,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 106.68 0)
+			(at 195.58 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5263,7 +5857,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 106.68 0)
+			(at 195.58 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5272,7 +5866,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 203.2 106.68 0)
+			(at 195.58 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5427,7 +6021,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
-		(at 193.04 111.76 0)
+		(at 185.42 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5435,7 +6029,7 @@
 		(dnp yes)
 		(uuid "991e6ed3-0ca4-4903-a955-f867735258bd")
 		(property "Reference" "J2"
-			(at 193.675 104.14 0)
+			(at 186.055 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5443,7 +6037,7 @@
 			)
 		)
 		(property "Value" "prog"
-			(at 193.802 106.172 0)
+			(at 186.182 117.602 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5451,7 +6045,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 193.04 111.76 0)
+			(at 185.42 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5460,7 +6054,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 193.04 111.76 0)
+			(at 185.42 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5469,7 +6063,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 193.04 111.76 0)
+			(at 185.42 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5500,7 +6094,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 251.46 73.66 0)
+		(at 252.73 142.24 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -5509,7 +6103,7 @@
 		(fields_autoplaced yes)
 		(uuid "a499b5c0-5497-41c0-bd1a-1bd36aa2e23c")
 		(property "Reference" "H2"
-			(at 254 71.1199 0)
+			(at 255.27 139.6999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5518,7 +6112,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 254 73.6599 0)
+			(at 255.27 142.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5527,7 +6121,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad"
-			(at 251.46 73.66 0)
+			(at 252.73 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5536,7 +6130,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 251.46 73.66 0)
+			(at 252.73 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5545,7 +6139,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 251.46 73.66 0)
+			(at 252.73 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5645,7 +6239,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 201.93 119.38 0)
+		(at 194.31 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5654,7 +6248,7 @@
 		(fields_autoplaced yes)
 		(uuid "a727a0c4-fa9a-4462-bb1f-cb61864da2c2")
 		(property "Reference" "#PWR011"
-			(at 201.93 125.73 0)
+			(at 194.31 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5663,7 +6257,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 201.93 124.46 0)
+			(at 194.31 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5671,7 +6265,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 119.38 0)
+			(at 194.31 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5680,7 +6274,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 119.38 0)
+			(at 194.31 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5689,7 +6283,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 201.93 119.38 0)
+			(at 194.31 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5711,7 +6305,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 223.52 88.9 0)
+		(at 224.79 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5720,7 +6314,7 @@
 		(fields_autoplaced yes)
 		(uuid "b1833d7a-56b3-4c7a-a4cd-cdd2d93e19ba")
 		(property "Reference" "#PWR015"
-			(at 223.52 95.25 0)
+			(at 224.79 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5729,7 +6323,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 223.52 93.98 0)
+			(at 224.79 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5737,7 +6331,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 223.52 88.9 0)
+			(at 224.79 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5746,7 +6340,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 88.9 0)
+			(at 224.79 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5755,7 +6349,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 223.52 88.9 0)
+			(at 224.79 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5776,35 +6370,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 228.6 73.66 0)
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 234.95 69.85 90)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ccfef127-6dc1-40f2-a09e-e49aa3f53c16")
-		(property "Reference" "H1"
-			(at 231.14 71.1199 0)
+		(uuid "ca5e0f54-9042-4b02-8677-444d0f54dddb")
+		(property "Reference" "JP2"
+			(at 237.49 68.5799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "MountingHole_Pad"
-			(at 231.14 73.6599 0)
+		(property "Value" "SDA"
+			(at 237.49 71.1199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad"
-			(at 228.6 73.66 0)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 234.95 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5813,7 +6407,77 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 228.6 73.66 0)
+			(at 234.95 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 234.95 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c6d9da4-9a8f-4273-8dad-1cb5baf08ec6")
+		)
+		(pin "2"
+			(uuid "41104537-7dcd-402e-90be-f4184b79876c")
+		)
+		(instances
+			(project "Tempsys"
+				(path "/5c038b10-b200-4aec-a38f-542bb66cfd01"
+					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 229.87 142.24 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "ccfef127-6dc1-40f2-a09e-e49aa3f53c16")
+		(property "Reference" "H1"
+			(at 232.41 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 232.41 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad"
+			(at 229.87 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 229.87 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5822,7 +6486,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 228.6 73.66 0)
+			(at 229.87 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
