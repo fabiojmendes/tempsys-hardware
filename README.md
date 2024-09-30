@@ -6,10 +6,18 @@ Kicad hardware design for the tempsys board.
 
 ## Schematics
 
+The board is built around the [E73-2G4M08S1C](https://www.cdebyte.com/products/E73-2G4M08S1C)
+module that relies on the nRF52840 chip from nordic. This was selected
 The hardware design is very minimalistic to avoid any unnecessary power draw.
-An external XTAL is used to further reduce power consumption.
 
-Pullup resistors on the i2c bus and programming headers are provided.
+In short:
+
+- An external XTAL is used to further reduce power consumption
+- Pullup resistors on the i2c bus
+- Programming headers are provided.
+- Reset button
+- Extra GPIO headers if necessary
+- CR-2032 battery holder
 
 ![Schematics](./assets/schematics.png)
 
@@ -19,6 +27,8 @@ Pullup resistors on the i2c bus and programming headers are provided.
 ![PCB Bottom](./assets/pcb-bottom.png)
 
 ## Assembled Product
+
+Slight older version of the pcb without the pull-up resistors.
 
 ![PCB Assembled](./assets/assembled.jpg)
 
