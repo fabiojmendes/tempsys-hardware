@@ -17,12 +17,12 @@ is very minimalistic to avoid any unnecessary power draw.
 
 In short:
 
-- An external XTAL is used to further reduce power consumption
-- Pull-up resistors on the i2c bus
+- An external XTAL is used to further reduce power consumption.
+- Pull-up resistors on the i2c bus.
 - Programming headers are provided.
-- Reset button
-- Extra GPIO headers if necessary
-- CR-2032 battery holder
+- Reset button.
+- Extra GPIO headers if necessary.
+- CR-2032 battery holder.
 
 ![Schematics](./assets/schematics.png)
 
