@@ -1,10 +1,10 @@
 <!-- vim: set tw=80: -->
 
-# Tempsys Hardware
+# Tempsys hardware
 
 Kicad hardware design for the Tempsys board.
 
-## Block Diagram
+## Block diagram
 
 ![Tempsys Block Diagram](./assets/tempsys-block.svg)
 
@@ -12,8 +12,8 @@ Kicad hardware design for the Tempsys board.
 
 The board is built around the
 [E73-2G4M08S1C](https://www.cdebyte.com/products/E73-2G4M08S1C) module that
-relies on the nRF52840 chip from Nordic. This was selected The hardware design
-is very minimalistic to avoid any unnecessary power draw.
+relies on the nRF52840 chip from Nordic. The hardware design is minimalistic to
+avoid any unnecessary power draw.
 
 In short:
 
@@ -30,18 +30,18 @@ In short:
 
 ![PCB Top](./assets/pcb-top.png) ![PCB Bottom](./assets/pcb-bottom.png)
 
-## Assembled Product
+## Assembled product
 
-Slight older version of the PCB without the pull-up resistors.
+Slightly older version of the PCB without the pull-up resistors.
 
 ![PCB Assembled](./assets/assembled.jpg)
 
-## Current Draw
+## Current draw
 
 The hardware is optimized to sip as little power as possible. Thanks to the
-Nordic low power capabilities this device will run for more than a year on a
-single coin cell battery CR-2032. In idle it will consume only ~3uA, and around
-250uA when the Bluetooth radio is engaged.
+Nordic low power capabilities this device runs for more than a year on a single
+coin cell battery CR-2032. In idle it consumes only ~3uA, and around 250uA when
+the Bluetooth radio is engaged.
 
 From the [firmware](https://github.com/fabiojmendes/tempsys-firmware)
 perspective, all devices are set to sleep when not in use and the advertising
